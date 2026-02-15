@@ -4,54 +4,61 @@ A Core Java based Train Management System demonstrating OOP principles, service-
 # 🚆 Train Management System (Core Java)
 
 ## 📌 Project Overview
-The Train Management System is a Core Java console-based application developed to apply Object-Oriented Programming (OOP) concepts in a real-world style use case.
+This is a Core Java console-based Train Management System developed to apply Object-Oriented Programming (OOP) concepts in a structured and real-world manner.
 
-This project simulates a basic train booking and user management flow, helping to understand how multiple classes and services interact within a Java application.
+The project follows a layered approach using packages for better code organization and separation of responsibilities.
 
 ---
 
 ## 🛠️ Technologies Used
 - Core Java
-- OOP Concepts
+- Object-Oriented Programming (OOP)
 
 ---
 
-## 🧩 Key Concepts Implemented
-- Classes & Objects
+## 📂 Package Structure
+
+### 🔹 com.bean
+- `User` – Stores user details
+- `Train` – Stores train information
+- `Ticket` – Represents booking details
+
+### 🔹 com.service
+- `UserService` – Handles user-related operations
+- `BookingService` – Handles train search and ticket booking logic
+
+### 🔹 com.client
+- `ClientCode` – Entry point of the application
+
+---
+
+## 🧠 Key Concepts Implemented
 - Encapsulation
-- Service-based architecture
 - Separation of concerns
-- Basic user and booking workflow
+- Service-based architecture
+- Real-world entity modeling
+- Basic booking workflow
 
 ---
 
-## 📂 Project Modules
-- **User** – Represents user details
-- **Train** – Represents train information
-- **Ticket** – Handles booking details
-- **UserService** – Manages user-related operations
-- **BookingService** – Handles train booking logic
-- **ClientCode** – Main class to execute the application
-
----
-
-## 🎯 Learning Outcome
-- Improved understanding of OOP concepts
-- Practical exposure to structuring Java applications
-- Experience in designing basic system workflows
-- Foundation for moving towards frameworks like Spring Boot
+## 🎯 Learning Outcomes
+- Improved understanding of OOP principles
+- Experience in structuring Java applications using packages
+- Hands-on practice with service-layer logic
+- Strong foundation for learning Java frameworks
 
 ---
 
 ## 🚀 Future Enhancements
 - Database integration (MySQL)
-- Exception handling & validation
-- Menu-driven interface
-- Conversion into a Spring Boot application
+- Exception handling and validations
+- Menu-driven console interface
+- Migration to Spring Boot
 
 ---
 
-## 📎 Author
+## 👩‍💻 Author
 Pratiksha Dhotre  
 (Java Full Stack Learner)
+
 
